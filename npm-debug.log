@@ -1,0 +1,62 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'mongoose',
+1 verbose cli   '-g' ]
+2 info using npm@2.15.0
+3 info using node@v0.10.44
+4 verbose install initial load of C:\Users\vmohankumar\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\vmohankumar\AppData\Roaming\npm\package.json
+6 silly cache add args [ 'mongoose', null ]
+7 verbose cache add spec mongoose
+8 silly cache add parsed spec { raw: 'mongoose',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'mongoose',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed mongoose@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for mongoose
+11 info addNameTag [ 'mongoose', 'latest' ]
+12 silly mapToRegistry name mongoose
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry http://npm.paypal.com/
+15 silly mapToRegistry data { raw: 'mongoose',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'mongoose',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri http://npm.paypal.com/mongoose
+17 verbose addNameTag registry:http://npm.paypal.com/mongoose not in flight; fetching
+18 verbose request uri http://npm.paypal.com/mongoose
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 16:50:13
+21 verbose request id 6a99f9ff7495e9e9
+22 http request GET http://npm.paypal.com/mongoose
+23 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+24 info attempt registry request try #2 at 16:50:25
+25 http request GET http://npm.paypal.com/mongoose
+26 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+27 info attempt registry request try #3 at 16:51:27
+28 http request GET http://npm.paypal.com/mongoose
+29 verbose stack Error: getaddrinfo ENOTFOUND
+29 verbose stack     at errnoException (dns.js:37:11)
+29 verbose stack     at Object.onanswer [as oncomplete] (dns.js:126:16)
+30 verbose cwd C:\moviesapi
+31 error Windows_NT 6.1.7601
+32 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "mongoose" "-g"
+33 error node v0.10.44
+34 error npm  v2.15.0
+35 error code ENOTFOUND
+36 error errno ENOTFOUND
+37 error syscall getaddrinfo
+38 error network getaddrinfo ENOTFOUND
+38 error network This is most likely not a problem with npm itself
+38 error network and is related to network connectivity.
+38 error network In most cases you are behind a proxy or have bad network settings.
+38 error network
+38 error network If you are behind a proxy, please make sure that the
+38 error network 'proxy' config is set properly.  See: 'npm help config'
+39 verbose exit [ 1, true ]

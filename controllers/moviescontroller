@@ -1,0 +1,9 @@
+var movieModel=require('./../models/moviesmodel');
+
+var moviescontroller=function(req,res){
+	res.send("Movies Online");
+
+
+}
+
+module.exports=moviescontroller;
